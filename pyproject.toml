@@ -23,11 +23,11 @@ keywords = [
   "python",
 ]
 dependencies = [
-  "Django>=4.2",
+  "Django>=5.0,<6.0",
+  "django-virtualqueryset>=1.0.0",
 ]
 classifiers = [
   "Framework :: Django",
-  "Framework :: Django :: 4.2",
   "Framework :: Django :: 5.0",
   "Intended Audience :: Developers",
   "Programming Language :: Python :: 3",
@@ -79,5 +79,3 @@ extend-exclude = ["**/migrations/*"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]
-
-
